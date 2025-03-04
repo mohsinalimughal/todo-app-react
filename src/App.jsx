@@ -11,6 +11,8 @@ function App() {
     todo.push({ title: title, description: description });
     settodo([...todo]);
     console.log(todo);
+    settitle("")
+    setdescription("")
   }
 
   function Edittodo(i) {
